@@ -1,0 +1,29 @@
+<dialogue>
+    <node>
+        <npctext>Эй, это моё золото!</npctext>
+        <answers>
+            <answer tonode = "1"><text>Да я просто посмотреть.</text></answer>
+            <answer tonode = "2"><text>Теперь моё! </text></answer>
+            <answer tonode = "3"><text>Ладно сейчас верну.</text></answer>
+        </answers>
+    </node>
+    <node>
+        <npctext>Ну если посмотреть, то ладно. Только обязательно верни</npctext>
+        <answers>
+            <answer tonode = "3"><text>Хорошо.</text><dialend>true</dialend></answer>
+        </answers>
+    </node>
+    <node>
+        <npctext>Ты не груби мне, а то запру в клетке!</npctext>
+        <answers>
+            <answer tonode = "3"><text>Ладно извини, верну я твое золото.. Но немного позже.</text><dialend>true</dialend></answer>
+        </answers>
+    </node>
+    <node>
+      <npctext>Да ладно, можешь одолжить золото на время.</npctext>
+      <answers>
+        <answer tonode = "3"><text>Хорошо.</text><dialend>true</dialend>
+        </answer>
+      </answers>
+    </node>
+</dialogue>

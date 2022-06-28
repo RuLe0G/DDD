@@ -1,0 +1,35 @@
+<dialogue>
+    <node>
+        <npctext>Ты что сбежал?</npctext>
+        <answers>
+            <answer tonode = "1"><text>Нет, я стражник как ты.</text></answer>
+            <answer tonode = "2"><text>Вы просто дверь не закрыли. Я пришел доложить об этом. </text></answer>
+            <answer tonode = "0"><text>Я должен идти.</text><dialend>true</dialend></answer>
+        </answers>
+    </node>
+    <node>
+        <npctext>Не похож ты на стражника.</npctext>
+        <answers>
+            <answer tonode = "3"><text>Я выгляжу буквально как ты.</text></answer>
+        </answers>
+    </node>
+    <node>
+        <npctext>Ты молодец, что сообщил об этом. Тогда с тебя снимаются все обвинения.</npctext>
+        <answers>
+            <answer tonode = "3"><text>Спасибо</text></answer>
+        </answers>
+    </node>
+    <node>
+      <npctext>Итак, раз ты тут, то сходи в подвал разберись с импом. Он там уже давно поселился.</npctext>
+      <answers>
+        <answer tonode = "3">
+          <text>Сейчас же пойду.</text>
+          <dialend>true</dialend>
+        </answer>
+        <answer tonode = "3">
+          <text>Сам иди! Мне это не интересно.</text>
+          <dialend>true</dialend>
+        </answer>
+      </answers>
+    </node>
+</dialogue>

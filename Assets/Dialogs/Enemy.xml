@@ -1,0 +1,21 @@
+<dialogue>
+    <node>
+        <npctext>Зайдя в комнату вы видите маленького импа, который копается в алхимических приборах.</npctext>
+        <answers>
+			<answer tonode = "2"><text>Эй дружок пирожок, тобой выбрана неправильная дверь, круг алхимического ремесла два блока вниз!</text></answer>
+            <answer tonode = "2"><text>Стой на месте адское отродье, а иначе я низвергну тебя прямо в ад!</text></answer>
+        </answers>
+    </node>
+    <node>
+        <npctext>Ебать ты!</npctext>
+        <answers>
+            <answer tonode = "0"><text>Ответ отрицательный, ебать ты, чертила.</text><startFight>true</startFight><dialend>true</dialend></answer>
+        </answers>
+    </node>
+    <node>
+        <npctext>Вы видите как имп начинает приближаться к вам с явно не добрыми намерениями.</npctext>
+        <answers>
+            <answer tonode = "0"><text>Принять бой</text><startFight>true</startFight><dialend>true</dialend></answer>
+        </answers>
+    </node>
+</dialogue>
